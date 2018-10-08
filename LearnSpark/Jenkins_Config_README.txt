@@ -18,4 +18,4 @@ Build -> Root POM (eg LearnSpark\pom.xml)
 Save
 
 run Spark Project
-spark-submit --class spPi.spPiexample.SparkPi --master local[2] /C:/Users/abhinavgupta9/workspace/spPi/target/spPi-0.0.1-SNAPSHOT.jar
+C:\spark\binspark-submit --class spPi.spPiexample.SparkPi --master local[2] /C:/Users/abhinavgupta9/workspace/spPi/target/spPi-0.0.1-SNAPSHOT.jar
