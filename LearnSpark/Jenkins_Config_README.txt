@@ -16,3 +16,6 @@ Maven -> Maven installations -> Add Maven -> Name (eg Maven_Home) -> MAVEN_HOME 
 Select Project (eg SparkExample) -> Configure -> Source Code Management -> Git -> Repositories -> Repositories URL (eg https://github.com/AsutoshPradhan/sonarjnkin.git)
 Build -> Root POM (eg LearnSpark\pom.xml)
 Save
+
+run Spark Project
+spark-submit --class spPi.spPiexample.SparkPi --master local[2] /C:/Users/abhinavgupta9/workspace/spPi/target/spPi-0.0.1-SNAPSHOT.jar
